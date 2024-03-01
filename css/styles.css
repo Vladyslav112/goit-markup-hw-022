@@ -57,6 +57,14 @@ button {
   color: #2e2f42;
 }
 
+.header-link:hover {
+  color: #404bbf;
+}
+
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-contact {
   font-style: normal;
 }
