@@ -4,16 +4,35 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 ul {
   list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 button {
   cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -26,8 +45,17 @@ button {
   overflow: hidden;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .header {
   background: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -86,6 +114,8 @@ button {
 
 .hero {
   background: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-title {
@@ -95,6 +125,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-order-btn {
@@ -104,6 +136,18 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  max-width: 169px;
+  margin: 0 auto;
+}
+
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-text {
+  max-width: 1128px;
+  margin: 0 auto;
 }
 
 .hero-order-btn:hover {
@@ -135,6 +179,8 @@ button {
 }
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -145,6 +191,10 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  max-width: 162px;
+  padding-bottom: 72px;
+  padding-left: 639px;
+  padding-right: 639px;
 }
 
 .team-title-pers {
